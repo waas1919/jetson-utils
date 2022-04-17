@@ -99,7 +99,7 @@ enum fileTypes
 /**
  * Return a sorted list of the files in the specified directory.  listDir() will glob files from
  * the specified path, and filter against wildcard characters including `*` and `?`.
- * For example, valid paths would include `~/workspace`, `~/workspace/*.jpg`, ect.
+ * For example, valid paths would include `~/workspace`, `~/workspace/.jpg`, ect.
  * @see here for a description of wildcard matching:  https://www.man7.org/linux/man-pages/man7/glob.7.html
  * @param path the path of the directory (may include wildcard characters)
  * @param[out] list the alphanumerically sorted output list of the files in the directory
