@@ -52,6 +52,7 @@ inline const char* imageFormatToStr( imageFormat format )
 		case IMAGE_BAYER_RGGB:	return "bayer-rggb";
 		case IMAGE_GRAY8:	 	return "gray8";
 		case IMAGE_GRAY32F:  	return "gray32f";
+		case IMAGE_COUNT:
 		case IMAGE_UNKNOWN: 	return "unknown";
 	};
 	
