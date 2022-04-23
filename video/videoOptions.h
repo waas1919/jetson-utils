@@ -23,7 +23,7 @@
 #ifndef __VIDEO_OPTIONS_H_
 #define __VIDEO_OPTIONS_H_
 
-#include <image/imageFormat.h>
+#include "imageFormat.h"
 #include "commandLine.h"
 
 #include "URI.h"	
